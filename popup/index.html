@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="content">
+        <div class="content__item">
+            <label for="guidInput">GUID</label>
+            <input type="text" name="guidInput" id="guidInput" readonly>
+            <button id="generateGuidButton">Generate</button>
+        </div>
+        <div class="content__item">
+            <label for="cnpjInput">CNPJ</label>
+            <input type="text" name="cnpjInput" id="cnpjInput" readonly>
+            <button id="generateCnpjButton">Generate</button>
+        </div>
+        <div class="content__item">
+            <label for="cpfInput">CPF</label>
+            <input type="text" name="cpfInput" id="cpfInput" readonly>
+            <button id="generateCpfButton">Generate</button>
+        </div>
+
+        <script src="gerar-random.js"></script>
+        <script src="cpf.js"></script>
+        <script src="cnpj.js"></script>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>

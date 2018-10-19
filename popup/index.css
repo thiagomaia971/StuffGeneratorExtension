@@ -1,0 +1,16 @@
+html, body {
+    padding: 15px;
+    width: 600px;
+}
+
+.content {
+    width: 100%;
+}
+
+.content__item {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 300px;
+}

@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "guid-generator",
+    "version": "1.0",
+    "description": "Generate GUIDs",
+    "icons": {
+        "48": "icons/if_Plus_131978.png"
+    },
+    "browser_action": {
+        "browser_style": true,
+        "default_popup": "popup/index.html",
+        "default_icon": {
+            "48": "icons/if_Plus_131978.png"
+        }
+    }
+}
